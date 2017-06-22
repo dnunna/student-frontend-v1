@@ -1,0 +1,21 @@
+body {
+    padding-top: 70px;
+}
+/* Customize container */
+@media (min-width: 600px) {
+    .container {
+        max-width: 768px;
+    }
+}
+/* Customize container */
+@media (min-width: 800px) {
+    .container-fluid {
+        max-width: 1024px;
+    }
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc:after {
+    content: normal;
+}
